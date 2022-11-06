@@ -4,7 +4,10 @@ export default function App() {
    return(
     <View style={styles.container}>
 <Text style={styles.text1}>Welcome!</Text>
-
+<Button
+          title={'Log out'}
+          style={styles.buttonStyle} 
+          />
 </View>
 
 
@@ -19,14 +22,16 @@ export default function App() {
     },
 
   text1: {
-    height: 1200,
-    width: 400,
-    marginTop: 270,
-    marginLeft: 50,
+  marginTop: 200,
+  marginLeft: 10,
+   
     fontWeight: 'bold',
     fontSize: 20,
     color: '#4a5e74',
+  },
 
-
+  buttonStyle: {
+  marginTop: 200,
+  marginLeft:60,
   },
 });
